@@ -1,0 +1,13 @@
+    1  gcc -Wall -o fork fork.c
+    2  gicc - Wall -o fork fork.c
+    3  gcc - Wall -o fork fork.c
+    4  gcc - Wall -e -o fork fork.c
+    5  gcc - Wall -E -o fork fork.c
+    6  gcc - Wall -x -o fork fork.c
+    7  gcc -o fork fork.c
+    8  ./fork
+    9  gcc -o fork fork.c
+   10  ./fork
+   11  gcc -o fork fork.c
+   12  ./fork
+   13  history > filename
